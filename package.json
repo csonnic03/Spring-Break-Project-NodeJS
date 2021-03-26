@@ -1,8 +1,16 @@
 {
   "name": "spring-break-project-nodejs",
   "version": "1.0.0",
-  "description": "",
+  "description": "Mod Twitch App",
   "main": "app.js",
+  "dependencies": {
+    "comfy.js": "^1.1.10",
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "request": "^2.88.2",
+    "tmi.js": "^1.7.5"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,13 +18,10 @@
     "type": "git",
     "url": "git+https://github.com/csonnic03/Spring-Break-Project-NodeJS.git"
   },
-  "author": "Caleb Sonnichsen",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/csonnic03/Spring-Break-Project-NodeJS/issues"
   },
-  "homepage": "https://github.com/csonnic03/Spring-Break-Project-NodeJS#readme",
-  "dependencies": {
-    "tmi.js": "^1.7.5"
-  }
+  "homepage": "https://github.com/csonnic03/Spring-Break-Project-NodeJS#readme"
 }
