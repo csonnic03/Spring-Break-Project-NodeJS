@@ -37,3 +37,7 @@ client.on('chat', (channel, user, message, self, tags, subscriber, name) => {
     }
     setInterval(() => {clear()}, 500000);
 });
+
+client.on('r9kbeta', (channel, tags, message, self) => {
+    client.r9kbeta(channel);
+});
